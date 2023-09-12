@@ -11,6 +11,21 @@ header {
 footer {
     clear: both;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    clear: both;
+    text-align: center;
+    margin: 5%;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    clear: both;
 }
 
 .name {
