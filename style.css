@@ -319,4 +319,29 @@ footer {
 .bottomrow {
     display: flex;
     justify-content: space-around;
+    margin-top: -10px;
+}
+
+.myport {
+    clear: both;
+    text-align: center;
+}
+.port {
+    text-align: center;
+}
+
+.project1, .project2, .project3{
+    display: inline-flex;
+    flex-direction: column;
+    width: 32%;
+    margin: 8px;
+}
+
+.projects {
+    align-content: flex-start;
+}
+
+.projdesc {
+    text-align: center;
+    margin: 100px 0;
 }
