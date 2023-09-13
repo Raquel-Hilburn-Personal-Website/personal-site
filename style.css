@@ -333,12 +333,13 @@ footer {
 .project1, .project2, .project3{
     display: inline-flex;
     flex-direction: column;
-    width: 32%;
-    margin: 8px;
+    width: 30%;
+    margin: 8px, 0px;
 }
 
 .projects {
-    align-content: flex-start;
+    display: flex;
+    justify-content: space-around;
 }
 
 .projdesc {
