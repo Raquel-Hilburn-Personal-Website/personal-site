@@ -6,6 +6,7 @@ body {
 header {
     font-size: larger;
     width: 100%;
+    clear: both;
 }
 
 footer {
@@ -116,10 +117,15 @@ input[type=submit] {
     border-radius: 5px;
     width: 50%;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 13%;
     clear: both;
 }
 
 .response {
     text-align: center;
+}
+
+.thankyou {
+    clear: both;
+    display: flex;
 }
