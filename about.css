@@ -38,56 +38,6 @@ footer {
     padding: 25px;
 }
 
-.column {
-    float: left;
-    width: 33%;
-    padding: 10px 3px;
-    box-sizing: border-box;
-    align-content: center;
-}
-
-.row {
-    display: inline-flex;
-    clear: both;
-    margin: 3px;
-    padding: 3px;
-    width: 55%;
-    float: left;
-}
-
-.me {
-    width: 100%;
-}
-
-.intro {
-    float: right;
-    text-align: center;
-    margin-right: 6%;
-    margin-top: 15%;
-    font-size: large;
-}
-
-.button {
-    border-radius: 20px;
-    padding: 5% 25%;
-    text-size-adjust: 10%;
-    font-size: 20px;
-    margin: 10px;
-    background-color: white;
-    color: black;
-    cursor: pointer;
-}
-
-.socials {
-    height: 30px;
-    width: 30px;
-    padding: 3%;
-}
-
-.title {
-    float: left;
-}
-
 .about {
     text-align: center;
     border: 2px solid black;
@@ -320,29 +270,4 @@ footer {
     display: flex;
     justify-content: space-around;
     margin-top: -10px;
-}
-
-.myport {
-    clear: both;
-    text-align: center;
-}
-.port {
-    text-align: center;
-}
-
-.project1, .project2, .project3{
-    display: inline-flex;
-    flex-direction: column;
-    width: 30%;
-    margin: 8px, 0px;
-}
-
-.projects {
-    display: flex;
-    justify-content: space-around;
-}
-
-.projdesc {
-    text-align: center;
-    margin: 100px 0;
 }
