@@ -16,18 +16,6 @@ footer {
     width: 100%;
 }
 
-.contact {
-    clear: both;
-    text-align: center;
-    margin: 5%;
-}
-
-.contactinfo {
-    display: flex;
-    flex-direction: column;
-    clear: both;
-}
-
 .name {
     float: left;
     padding: 25px;

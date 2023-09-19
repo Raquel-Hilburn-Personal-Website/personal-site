@@ -16,16 +16,23 @@ footer {
     width: 100%;
 }
 
-.contact {
+.contactme {
     clear: both;
     text-align: center;
-    margin: 5%;
 }
 
-.contactinfo {
-    display: flex;
-    flex-direction: column;
+.message {
     clear: both;
+    text-align: center;
+    display: inline-flex;
+    padding-left: 10%;
+    padding-top: 15%;
+    width: 50%;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
 }
 
 .name {
@@ -65,19 +72,27 @@ textarea {
 
 form {
     border-radius: 5px;
-    background-image: url("https://i.pinimg.com/1200x/ae/eb/48/aeeb48e25e81f5a212ccfdccbe88e105.jpg");
+    background-image: url("https://img.freepik.com/premium-vector/abstract-background-texture-trendy-pale-purple-monochrome-shades-watercolor-manner-copyspase_498312-150.jpg");
     background-size: cover;
     align-content: center;
     padding: 10px;
-    width: 30%;
+    width: 70%;
     display: flex;
     flex-direction: column;
+}
+
+.form {
+    display: inline-flex;
+    width: 50%;
+    float: right;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 input[type=submit] {
     border-radius: 5px;
     cursor: pointer;
-    background-color: rgba(205, 81, 43, 255);
+    background-color: rgba(92,32,156,255);
     height: 50px;
     width: 100px;
     margin-left: auto;
@@ -103,7 +118,6 @@ input[type=submit] {
     margin: auto;
     margin-top: 15%;
     clear: both;
-    top: 20%;
 }
 
 .response {
