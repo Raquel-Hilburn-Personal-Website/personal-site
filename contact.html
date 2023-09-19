@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <title>Rocky Hilburn Website</title>
     <style>
         @font-face {
@@ -25,15 +25,16 @@
             <section>
                 <span class="name">ROCKY HILBURN | WEB DEVELOPER IN TRAINING</span>
                 <nav class="home">
-                    <a href="./index.html">HOME</a>
+                    <a href="./home.html">HOME</a>
                 </nav>
             </section>
         </div>
     </header>
-    <div class="contactinfo">
-        <div class="contact">
-            <h1><u>Contact Me</u></h1>
-        </div>
+    <div class="contactme">
+        <h1><u>Contact Me</u></h1>
+    </div>
+    <div class="contact">
+        <div class="message">
         <div>
             <h2 style="text-align: center;">Message me on any of my social media platforms here:
                 <section>
@@ -47,6 +48,18 @@
                 Or<br><br>Email me :<br><br><a href="mailto:rockyhilburn@gmail.com">rockyhilburn@gmail.com</a>
             </h2>
         </div>
+    </div>
+    <div class="form">
+        <form action="./submitted.html" autocomplete="on" method="get">
+            <label for="fullname">Full Name:</label><br>
+            <input id="fullname" type="text" placeholder="Full Name Here" required></insert><br>
+            <label for="email">Email:</label><br>
+            <input id="email" type="email" placeholder="Email Here" required></insert><br>
+            <label for="subject">Subject:</label><br>
+            <textarea id="subject" type="text" placeholder="Type Message Here" maxlength="500"></textarea><br><br>
+            <input type="submit" value="Submit"></input>
+        </form>
+    </div>
     </div>
         <footer>
             <div>

@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/410/558/original/minimalist-pastel-color-blob-aesthetic-background-wallpaper-template-poster-free-vector.jpg");
+    background-size: cover;
+}
+
+header {
+    font-size: larger;
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.name {
+    float: left;
+    padding: 25px;
+}
+
+.home {
+    float: right;
+    padding: 25px;
+}
+
+.myport {
+    clear: both;
+    text-align: center;
+}
+
+.port {
+    text-align: center;
+}
+
+.project1,
+.project2,
+.project3 {
+    display: inline-flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 8px, 0px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projdesc {
+    text-align: center;
+    margin: 100px 0;
+}
